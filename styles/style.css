@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo, img{
+    height: auto;
+    width: 50em;
+    max-width: 50%;
+}
+
+.bonjour{
+    color: red;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rebeccapurple;
+}
+a:active{
+    color: purple;
+}
